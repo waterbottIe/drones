@@ -43,11 +43,14 @@ recvThread.start()
 
 # CREATE FUNCTIONS HERE....
 
-def flip():
-    sendmsg('forward 190')
+# def flip():
+    # sendmsg('forward 190')
 
-def secondHoop():
-    sendmsg('300 0 100 75')
+def firstHoop():
+    sendmsg('up 65')
+
+#def secondHoop():
+   # sendmsg('300 0 100 75')
 
 # def thirdHoopYaw():
 
@@ -55,7 +58,7 @@ def secondHoop():
 # def fourthHoop():
 
 # Square Function with a for loop
-def square():
+# def square():
     for i in range(4):
         sendmsg('forward 100')
         sendmsg('ccw 90')
@@ -75,8 +78,9 @@ try:
         sendmsg('command', 0)
         sendmsg('takeoff')
 
-        flip()
+        firstHoop()
 
+        secondHoop()
 
         sendmsg('land')
 
