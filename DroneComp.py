@@ -47,10 +47,11 @@ recvThread.start()
     # sendmsg('forward 190')
 
 def firstHoop():
-    sendmsg('up 65')
+    sendmsg('up 50')
+    sendmsg('forward 250')
 
 #def secondHoop():
-   # sendmsg('300 0 100 75')
+    #sendmsg()('300 0 100 75')
 
 # def thirdHoopYaw():
 
@@ -80,7 +81,7 @@ try:
 
         firstHoop()
 
-        secondHoop()
+        # secondHoop()
 
         sendmsg('land')
 
