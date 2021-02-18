@@ -48,20 +48,20 @@ recvThread.start()
 
 def firstHoop():
     sendmsg('up 10')
-    sendmsg('forward 219')
+    sendmsg('forward 220')
 
 def secondHoop():
-    sendmsg('go 225 0 100 75')
+    sendmsg('go 19 0 75 75')
 
 def thirdHoopYaw():
     sendmsg('ccw 90')
-    sendmsg('forward 229')
+    sendmsg('forward 260')
     sendmsg('ccw 90')
 
 def fourthHoop():
     sendmsg('forward 100')
-    sendmsg('down 40')
-    sendmsg('forward 100')
+    sendmsg('down 50')
+    sendmsg('forward 250')
 
 # Square Function with a for loop
 # def square():
