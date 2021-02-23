@@ -51,7 +51,7 @@ def firstHoop():
     sendmsg('forward 220')
 
 def secondHoop():
-    sendmsg('go 19 0 75 75')
+    sendmsg('go 190 0 75 75')
 
 def thirdHoopYaw():
     sendmsg('ccw 90')
@@ -61,7 +61,7 @@ def thirdHoopYaw():
 def fourthHoop():
     sendmsg('forward 100')
     sendmsg('down 50')
-    sendmsg('forward 250')
+    sendmsg('forward 350')
 
 # Square Function with a for loop
 # def square():
